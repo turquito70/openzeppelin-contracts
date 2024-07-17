@@ -11,4 +11,4 @@ pragma solidity >=0.8.0;
 *    import {IERC721Metadata} from "../token/ERC721/extensions/IERC721Metadata.sol";
 * Change to:
 */
-import {IERC721Metadata} from "https://github.com/turquito70/openzeppelin-contracts/edit/master/contracts/interfaces/extensions/IERC721Metadata.sol";
+import {IERC721Metadata} from "https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Metadata.sol";
