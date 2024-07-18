@@ -1,9 +1,17 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC721/extensions/IERC721Metadata.sol)
 
-pragma solidity ^0.8.20;
+/**
+* pragma solidity ^0.8.20;
+* Change to:
+*/
+pragma solidity >=0.8.0;
 
-import {IERC721} from "../IERC721.sol";
+/**
+* import {IERC721} from "../IERC721.sol";
+* Change to:
+*/
+import {IERC721} from "https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC721/IERC721.sol";
 
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional metadata extension
