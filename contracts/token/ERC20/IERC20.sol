@@ -80,7 +80,8 @@ interface IERC20 {
      * Emits a {Transfer} event.
      */
     function transferFrom(address from, address to, uint256 value) external returns (bool);
-    
+
+
     // New: Added in ERC20 interface to support decimals()
     function decimals() external view returns (uint8); 
 }
