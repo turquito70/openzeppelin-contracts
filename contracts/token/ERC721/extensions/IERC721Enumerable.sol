@@ -9,7 +9,7 @@
 
 pragma solidity >=0.8.0;
 
-import {} from "https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC721/IERC721.sol"
+import {IERC721} from "https://github.com/turquito70/openzeppelin-contracts/blob/master/contracts/token/ERC721/IERC721.sol"
 
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
