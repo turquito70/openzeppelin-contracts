@@ -84,4 +84,8 @@ interface IERC20 {
 
     // New: Added in ERC20 interface to support decimals()
     function decimals() external view returns (uint8); 
+
+    // other methods...
+    function symbol() external view returns (string memory);
+    
 }
